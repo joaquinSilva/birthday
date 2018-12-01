@@ -30,7 +30,7 @@ body {
     font-size: 150px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     overflow: hidden;
-    color: #dec36c;
+    color: #f9283a;
 }
 /*.cake:before {*/
     /*content: '';*/
@@ -49,5 +49,5 @@ body {
     font-size: 75px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     overflow: hidden;
-    color: #c3f9ca;
+    color: greenyellow;
 }
