@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-<div class="container border border-primary mt-5 pt-5">
-    <div class="row border border-primary align-items-center justify-content-center">
-        <div class="col-md-6 col-12 mx-auto">
-            <h2 id="greeting" class="text-center justify-content-center border border-primary">Happy Birthday Daniel!!</h2>
-        </div>
+<div class="container mt-5 pt-5">
+    <div class="row align-items-center justify-content-center">
         <div class="col-md-6 col-12 justify-content-center">
-            <div class="text-center justify-content-center border border-primary"><i class="fas fa-birthday-cake"></i></div>
-            <div class="button-container justify-content-center">
-                <button class="button">Change colors!</button>
+            <div class="text-center justify-content-center cake">
+                <i id='cake' class="change fas fa-birthday-cake"></i>
             </div>
+            <div class="button-container">
+                <button type='button' id="button" class="button btn btn-info mb-5 float-right">Change colors!</button>
+            </div>
+        </div>
+        <div class="col-md-6 col-12 mx-auto">
+            <h2 id="greeting" class="change text-center justify-content-center">Happy Birthday Daniel!!</h2>
         </div>
     </div>
 </div>

@@ -1,8 +1,53 @@
-
-
+.aqua {
+    color: aqua;
+}
+.lime {
+    color: greenyellow;
+}
+.pastel {
+    color: #c3f9ca;
+}
+.orange {
+    color: #f9913c;
+}
+.red {
+    color: #f9283a;
+}
 
 
 h1, h2 {
-    font-family: Optima, Segoe, “Segoe UI”, Candara, Calibri, Arial, sans-serif;;
+    font-family: Optima, Segoe, “Segoe UI”, Candara, Calibri, Arial, sans-serif;
+    z-index: 2;
 }
-
+body {
+    background-image: url("lights.jpg");
+    background-size: cover;
+    background-color: #0abb2a;
+    height: 100vh;
+    background-attachment: fixed;
+}
+#cake {
+    font-size: 150px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color: #dec36c;
+}
+/*.cake:before {*/
+    /*content: '';*/
+    /*top: -20px;*/
+    /*left: -20px;*/
+    /*right: -20px;*/
+    /*bottom: -20px;*/
+    /*background-attachment: fixed;*/
+    /*background: url("lights.jpg");*/
+    /*filter: blur(2px);*/
+/*}*/
+.button-container {
+    font-size: 25px;
+}
+#greeting {
+    font-size: 75px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color: #c3f9ca;
+}
